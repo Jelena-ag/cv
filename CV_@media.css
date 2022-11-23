@@ -1,0 +1,388 @@
+@media (orientation: portrait) and (min-width: 520px) {
+  header h1 {
+    padding: 15px 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+  .main img {
+    width: 130px;
+    height: 170px;
+    margin-left: 15px;
+  }
+
+  .main .contact {
+    margin: 15px;
+  }
+
+  .main .contact .name {
+    margin-bottom: 5px;
+    margin-left: 24px;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+
+  .main .contact h3 {
+    margin-bottom: 7px;
+    margin-left: 24px;
+  }
+
+  .main .contact ul li {
+    margin-top: 5px;
+  }
+
+  .main .contact ul li i {
+    font-size: 1.5em;
+  }
+
+  .main .contact ul li a {
+    font-size: 1.7em;
+  }
+
+  div.flex {
+    margin-left: 15px;
+  }
+
+  p {
+    margin-bottom: 4px;
+    font-size: 1.7em;
+  }
+
+  h4 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+  }
+
+  section.form {
+    margin-left: 15px;
+  }
+
+  section.form i.fa-solid {
+    font-size: 2em;
+  }
+
+  section.form a {
+    margin-left: 10px;
+    font-size: 2em;
+  }
+
+  section.form input,
+  section.form textarea,
+  section.form button {
+    width: 80%;
+    font-size: 1.5em;
+    padding: 15px;
+  }
+
+  section.form button {
+    width: 50%;
+  }
+
+  footer p {
+    margin-left: 7px;
+  }
+
+  footer i {
+    margin-right: 15px;
+    font-size: 2em;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  header {
+    height: 25vh;
+  }
+
+  header h1 {
+    font-size: 3.5em;
+    letter-spacing: 3px;
+  }
+
+  .main img {
+    width: 150px;
+    height: 230px;
+  }
+
+  .main .contact {
+    margin: 25px;
+  }
+
+  .main .contact .name {
+    margin-bottom: 10px;
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  .main .contact h3 {
+    margin-bottom: 10px;
+  }
+
+  .main .contact ul li i {
+    font-size: 2em;
+  }
+
+  .main .contact ul li a {
+    font-size: 2.5em;
+  }
+
+  p {
+    margin-bottom: 7px;
+    font-size: 2.5em;
+  }
+
+  h4 {
+    font-size: 2.7em;
+  }
+
+  section.form i.fa-solid {
+    font-size: 3em;
+  }
+
+  section.form a {
+    font-size: 3.5em;
+    letter-spacing: 1px;
+  }
+
+  section.form input,
+  section.form textarea,
+  section.form button {
+    font-size: 2.5em;
+    padding: 25px;
+  }
+
+  footer i {
+    margin-right: 25px;
+    font-size: 3em;
+  }
+}
+
+@media (orientation: landscape) {
+  header {
+    height: 45vh;
+  }
+
+  .main img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .main .contact .name {
+    margin-bottom: 8px;
+    font-size: 2.5em;
+  }
+
+  h3 {
+    margin-bottom: 7px;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+  }
+
+  .main .contact ul li a {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  h4 {
+    font-size: 1.4em;
+  }
+
+  section.form input,
+  section.form textarea {
+    width: 80%;
+  }
+
+  footer i {
+    font-size: 1.5em;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 720px) {
+  header {
+    height: 35vh;
+    margin-bottom: 20px;
+  }
+
+  header h1 {
+    padding: 15px 0;
+    font-size: 2.5em;
+  }
+
+  .main img {
+    width: 130px;
+    height: 170px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main .contact {
+    margin-left: 20px;
+  }
+
+  .main .contact .name {
+    margin-bottom: 15px;
+    font-size: 3em;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+
+  .main .contact ul li i {
+    margin-top: 8px;
+    font-size: 1.5em;
+  }
+
+  .main .contact ul li a {
+    font-size: 1.5em;
+  }
+
+  div.flex {
+    margin-left: 20px;
+  }
+
+  p {
+    margin-top: 5px;
+    font-size: 1.5em;
+    letter-spacing: 0.3px;
+  }
+
+  div.underline {
+    width: 60%;
+  }
+
+  h4 {
+    font-size: 1.7em;
+  }
+
+  section.form {
+    margin-left: 20px;
+  }
+
+  section.form i.fa-solid {
+    font-size: 2em;
+  }
+
+  section.form a {
+    margin-left: 10px;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+  }
+
+  section.form input,
+  section.form textarea,
+  section.form button {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+
+  section.form button {
+    width: 40%;
+  }
+
+  section.rodo p {
+    font-size: 1.2em;
+  }
+
+  footer i {
+    margin-right: 20px;
+    font-size: 2em;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 720px) {
+
+}
+
+
+
+
+
+
+
+
+/* 
+@media (orientation: landscape) and (min-width: 1024px) {
+   header {
+ background-image: url(img/code-1280x719.jpg);
+}
+
+header h1 {
+    font-size: 5em;
+  }
+
+.main img {
+  width: 170px;
+  height: 200px;
+
+    
+  }
+
+ .main .contact .name {
+    margin-bottom: 20px;
+    font-size: 4em;
+  } */
+
+/* 
+
+
+
+
+h3 {
+    font-size: 3em;
+  }
+
+ .main .contact h3 {
+    margin-bottom: 10px;
+  }
+
+.main .contact ul li i {
+    font-size: 2em;
+  }
+
+.main .contact ul li a {
+    font-size: 2.5em;
+  }
+
+p {
+  margin-bottom: 7px;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2.7em;
+}
+
+section.form i.fa-solid {
+    font-size: 3em;
+}
+
+section.form a {
+  font-size: 3.5em;
+  letter-spacing: 1px;
+}
+
+section.form input,
+section.form textarea,
+section.form button {
+  font-size: 2.5em;
+  padding: 25px;
+}
+
+footer i {
+  margin-right: 25px;
+  font-size: 3em;
+} */
