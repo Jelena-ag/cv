@@ -45,6 +45,7 @@ div.main {
   margin: 10px;
   background-repeat: no-repeat;
   object-fit: cover;
+  filter: drop-shadow(8px 8px 10px gray);
 }
 
 .main .contact {
@@ -116,6 +117,7 @@ section.form a {
 section.form input,
 section.form textarea,
 section.form button {
+  display: block;
   width: 90%;
   margin-top: 10px;
   font-family: saira, sans-serif;
@@ -154,11 +156,4 @@ footer i {
 }
 
 
-/*  
-section form button:hover {
-    cursor: pointer;
-}
-max-width: 1920px;
-       margin: 0 auto; 
-       -dac przy desktop, zeby nie rozciagalo sie powyzej 1920px i bylo wycentrowane
-         sprawdzic max-w przy ~`1120px czy tylko header czy cala strona ma max.. */
+/* dorobic zeby dzialalo -> wyslij wiadomosc i tel */
