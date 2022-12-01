@@ -1,4 +1,4 @@
-@media (orientation: portrait) and (min-width: 520px) {
+@media (orientation: portrait) and (min-width: 412px) {
   header h1 {
     padding: 15px 0;
     font-size: 3em;
@@ -41,7 +41,7 @@
   }
 
   .main .contact ul li a {
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
 
   div.flex {
@@ -58,30 +58,9 @@
     letter-spacing: 1px;
   }
 
-  section.form {
-    margin-left: 15px;
-  }
-
-  section.form i.fa-solid {
-    font-size: 2em;
-  }
-
-  section.form a {
-    margin-left: 10px;
-    font-size: 2em;
-  }
-
-  section.form input,
-  section.form textarea,
-  section.form button {
-    width: 80%;
-    font-size: 1.5em;
-    padding: 15px;
-  }
-
-  section.form button {
-    width: 50%;
-  }
+  section.rodo p {
+  font-size: 1.2em;
+}
 
   footer p {
     margin-left: 7px;
@@ -97,6 +76,10 @@
   header {
     height: 25vh;
   }
+
+  div.bg {
+  height: 25vh;
+}
 
   header h1 {
     font-size: 3.5em;
@@ -130,6 +113,7 @@
   }
 
   .main .contact ul li a {
+    margin-left: 15px;
     font-size: 2.5em;
   }
 
@@ -142,21 +126,9 @@
     font-size: 2.7em;
   }
 
-  section.form i.fa-solid {
-    font-size: 3em;
-  }
-
-  section.form a {
-    font-size: 3.5em;
-    letter-spacing: 1px;
-  }
-
-  section.form input,
-  section.form textarea,
-  section.form button {
-    font-size: 2.5em;
-    padding: 25px;
-  }
+ section.rodo p {
+  font-size: 1.5em;
+}
 
   footer i {
     margin-right: 25px;
@@ -169,10 +141,22 @@
     height: 45vh;
   }
 
+   div.bg {
+  height: 45vh;
+}
+
+div.main {
+ padding-left: 10px;
+}
+
   .main img {
     width: 100px;
-    height: 120px;
+    height: 130px;
   }
+
+  .main .contact {
+  margin: 20px;
+}
 
   .main .contact .name {
     margin-bottom: 8px;
@@ -197,10 +181,13 @@
     font-size: 1.4em;
   }
 
-  section.form input,
-  section.form textarea {
-    width: 80%;
-  }
+   section.rodo p{
+  font-size: 0.8em;
+}
+
+footer p {
+ margin-left: 10px;
+}
 
   footer i {
     font-size: 1.5em;
@@ -210,12 +197,15 @@
 @media (orientation: landscape) and (min-width: 720px) {
   header {
     height: 35vh;
-    margin-bottom: 20px;
   }
 
   header h1 {
     padding: 15px 0;
     font-size: 2.5em;
+  }
+
+  div.main {
+padding-top: 20px;
   }
 
   .main img {
@@ -259,6 +249,28 @@
     letter-spacing: 0.3px;
   }
 
+  div.flex .project h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.flex .project h3 a {
+  padding: 5px;
+  border-radius: 15%;
+  box-shadow: 0 10px 30px -5px #000;
+   transition: .3s;
+}
+
+div.flex .project h3 a:hover {
+   padding: 35px;
+  border: 3px solid #9d2b2b;
+ border-radius: 50%;
+}
+
+div.flex .project h3 a:hover i {
+font-size: 50px;
+}
+
   div.underline {
     width: 60%;
   }
@@ -267,34 +279,9 @@
     font-size: 1.7em;
   }
 
-  section.form {
-    margin-left: 20px;
-  }
-
-  section.form i.fa-solid {
-    font-size: 2em;
-  }
-
-  section.form a {
-    margin-left: 10px;
-    font-size: 2em;
-    letter-spacing: 0.5px;
-  }
-
-  section.form input,
-  section.form textarea,
-  section.form button {
-    width: 60%;
-    padding: 10px;
-    font-size: 1.5em;
-  }
-
-  section.form button {
-    width: 40%;
-  }
-
   section.rodo p {
-    font-size: 1.2em;
+    padding-right: 15px;
+    font-size: 1em;
   }
 
   footer i {
@@ -304,12 +291,23 @@
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
-   header {
+  body {
+     max-width: 1024px;
+       margin: 0 auto; 
+       background-image: linear-gradient(white, rgba(234, 114, 200, 0.8));
+  }
+  
+  header {
  background-image: url(img/code-1280x719.jpg);
+ box-shadow: 0 10px 30px -5px #000;
 }
 
 header h1 {
     font-size: 3em;
+  }
+
+  div.main {
+    box-shadow: 0 10px 30px -5px #000;
   }
 
 .main img {
@@ -331,7 +329,7 @@ h3 {
   }
 
 .main .contact ul li i {
-  margin-top: 17px;
+  margin-top: 15px;
     font-size: 2em;
   }
 
@@ -344,43 +342,31 @@ p {
   font-size: 2em;
 }
 
+ div.flex .project h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.flex .project h3 a {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 20%;
+}
+
 h4 {
   margin-bottom: 9px;
   font-size: 2.2em;
 }
 
-section.form i.fa-solid {
-    font-size: 3em;
+ section.rodo p {
+    font-size: 1.3em;
+  }
 }
 
-section.form a {
-  font-size: 2.5em;
-  letter-spacing: 0.5px;
-}
+footer {
+box-shadow: 0 10px 30px -5px #000;
 }
 
-@media (orientation: landscape) and (min-width: 1600px) {
-body {
-  max-width: 1600px;
-       margin: 0 auto; 
-}
-
- div.underline {
-    width: 50%;
-  }
-
-   section.form input,
-  section.form textarea,
-  section.form button {
-    width: 50%;
-  }
-
-  section.form button {
-    width: 20%;
-    margin-left: 30%;
-  }
-
-section.form button:hover {
-   cursor: pointer;
-  }
+footer i {
+  padding-top: 10px;
 }

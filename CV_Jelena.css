@@ -10,32 +10,33 @@ body {
 }
 
 header {
-  position: relative;
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   background-size: cover;
   background-position: center;
   background-image: url(img/code-683x383.jpg);
   box-shadow: 0 0 10px black;
-  filter: brightness(0.9);
+}
+
+div.bg {
+    width: 100%;
+  height: 20vh;
+ background-color: rgba(0, 63, 114, 0.3);
 }
 
 header h1 {
-  position: fixed;
-  top: 40%;
-  left: 0;
   width: 100%;
   padding: 10px 0;
   color: white;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-color: rgba(220, 87, 182, 0.8);
+  background-color:  rgba(234, 114, 200, 0.9);;
 }
 
 div.main {
   width: 100%;
-  background-image: linear-gradient(white, rgba(220, 87, 182, 0.8));
+  background-image: linear-gradient(white, rgba(234, 114, 200, 0.8));
 }
 
 .main img {
@@ -60,8 +61,12 @@ div.main {
   letter-spacing: 0.5px;
 }
 
-h3 {
+.main .contact h3 {
   margin-bottom: 5px;
+}
+
+h3 {
+  margin-bottom: 10px;
   font-size: 1.5em;
   letter-spacing: 0.5px;
 }
@@ -79,6 +84,10 @@ h3 {
   text-decoration: none;
 }
 
+.main .contact ul li a:hover {
+  color: #9d2b2b;
+}
+
 div.flex {
   display: flex;
   flex-direction: column;
@@ -86,8 +95,20 @@ div.flex {
 }
 
 p {
-  margin-bottom: 2px;
+  line-height: 200%;
   font-size: 1.2em;
+}
+
+div.flex .project h3 {
+  margin-bottom: 0;
+}
+
+div.flex .project h3 a {
+  padding: 3px;
+  border: 1px solid #9d2b2b;
+  border-radius: 5%;
+  color: black;
+  text-decoration: none;
 }
 
 div.underline {
@@ -98,62 +119,34 @@ div.underline {
 }
 
 h4 {
-  margin: 5px 0;
+  line-height: 250%;
   font-size: 1.3em;
   letter-spacing: 0.3px;
 }
 
-section.form {
-  margin-left: 10px;
-}
-
-section.form a {
-  margin-left: 5px;
-  font-size: 1.2em;
-  text-decoration: none;
-  color: black;
-}
-
-section.form input,
-section.form textarea,
-section.form button {
-  display: block;
-  width: 90%;
-  margin-top: 10px;
-  font-family: saira, sans-serif;
-  font-size: 1.2em;
-  padding: 5px;
-}
-
-section.form button {
-  width: 50%;
-}
-
-section form button i {
-  margin-left: 3px;
-}
-
 section.rodo {
-  margin: 20px 10px 0;
+  margin: 20px 20px 0;
   padding-bottom: 10px;
   text-align: justify;
 }
 
+section.rodo p{
+ font-size: 0.8em;
+}
+
 footer {
   padding: 7px;
-  background-color: black;
+  border-top: 2px solid  #9d2b2b;;
+  background-color:  rgba(234, 114, 200, 0.8);
 }
 
 footer p {
   display: inline-block;
-  color: white;
 }
 
 footer i {
   float: right;
   margin-right: 10px;
-  color: white;
+  font-size: 1.5em;
+  color: black;
 }
-
-
-/* dorobic zeby dzialalo -> wyslij wiadomosc i tel */
