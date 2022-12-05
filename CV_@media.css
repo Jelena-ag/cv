@@ -203,6 +203,7 @@
 @media (orientation: landscape) and (min-width: 720px) {
   header {
     height: 35vh;
+    background-attachment: fixed;
   }
 
   header h1 {
