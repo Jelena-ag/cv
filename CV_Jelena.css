@@ -120,10 +120,25 @@ div.underline {
   background-color: #9d2b2b;
 }
 
+div.flex .courses .html {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url(img/html_css.png);
+  margin-top: -50px;
+  margin-left: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h4 {
   line-height: 250%;
   font-size: 1.3em;
   letter-spacing: 0.3px;
+}
+
+div.last {
+  width: 97%;
 }
 
 section.rodo {

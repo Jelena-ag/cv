@@ -54,6 +54,11 @@
     font-size: 1.7em;
   }
 
+div.flex .courses .html {
+  margin-top: -70px;
+  margin-left: 330px;
+}
+
   h4 {
     font-size: 1.8em;
     letter-spacing: 1px;
@@ -124,6 +129,13 @@
     font-size: 2.5em;
   }
 
+  div.flex .courses .html {
+  width: 90px;
+  height: 90px;
+  margin-top: -100px;
+  margin-left: 490px;
+}
+
   h4 {
     font-size: 2.7em;
   }
@@ -182,6 +194,13 @@
   p {
     font-size: 1.3em;
   }
+
+    div.flex .courses .html {
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 270px;
+}
 
   h4 {
     font-size: 1.4em;
@@ -282,9 +301,20 @@
     width: 60%;
   }
 
+    div.flex .courses .html {
+  width: 60px;
+  height: 60px;
+  margin-top: -60px;
+  margin-left: 330px;
+}
+
   h4 {
     font-size: 1.7em;
   }
+
+div.last {
+  width: 97%;
+}
 
   section.rodo p {
     padding-right: 15px;
@@ -365,6 +395,13 @@
     margin-bottom: 9px;
     font-size: 2.2em;
   }
+
+      div.flex .courses .html {
+  width: 70px;
+  height: 70px;
+  margin-top: -80px;
+  margin-left: 420px;
+}
 
   section.rodo p {
     font-size: 1.3em;
