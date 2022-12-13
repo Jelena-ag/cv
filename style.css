@@ -139,6 +139,7 @@ h4 {
   line-height: 250%;
   font-size: 1.3em;
   letter-spacing: 0.3px;
+  text-decoration: 1px underline var(--brown);
 }
 
 div.last {
