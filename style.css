@@ -16,23 +16,27 @@ body {
 header {
   width: 100%;
   height: 20vh;
+  background-image: url(../img/code-683x383.jpg);
   background-size: cover;
   background-position: center;
-  background-image: url(../img/code-683x383.jpg);
+  background-repeat: no-repeat;
   box-shadow: 0 0 10px black;
 }
 
-div.bg {
+header div.bg {
   width: 100%;
   height: 20vh;
   background-color: rgba(0, 63, 114, 0.3);
 }
 
-header h1 {
-  display: inline-block;
+h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: -30px;
   width: 100%;
-  margin-top: 30px;
-  padding: 10px 0;
+  padding: 5px 0;
+  font-size: 1.5em;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -46,7 +50,6 @@ div.main {
 }
 
 .main img {
-  position: relative;
   width: 70px;
   height: 100px;
   margin: 10px;
@@ -105,6 +108,17 @@ p {
   font-size: 1.2em;
 }
 
+div.flex .courses .html {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/html_css.png);
+  margin-top: -50px;
+  margin-left: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 div.flex .project h3 {
   margin-bottom: 0;
 }
@@ -122,17 +136,6 @@ div.underline {
   height: 1px;
   margin: 10px 0;
   background-color: var(--brown);
-}
-
-div.flex .courses .html {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background-image: url(../img/html_css.png);
-  margin-top: -50px;
-  margin-left: 230px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 h4 {
@@ -174,11 +177,10 @@ footer i {
 }
 
 @media (orientation: portrait) and (min-width: 412px) {
-  header h1 {
-    margin-top: 50px;
-    padding: 15px 0;
-    font-size: 3em;
-    letter-spacing: 2px;
+  h1 {
+    padding: 7px 0;
+    margin-top: -35px;
+    font-size: 2em;
   }
 
   .main img {
@@ -258,23 +260,24 @@ footer i {
     height: 25vh;
   }
 
-  div.bg {
+  header div.bg {
     height: 25vh;
   }
 
-  header h1 {
-    margin-top: 80px;
-    font-size: 3.5em;
+  h1 {
+    padding: 10px 0;
+    margin-top: -55px;
+    font-size: 3em;
     letter-spacing: 3px;
   }
 
   .main img {
-    width: 150px;
+    width: 170px;
     height: 230px;
   }
 
   .main .contact {
-    margin: 25px;
+    margin: 25px 0 0 45px;
   }
 
   .main .contact .name {
@@ -305,10 +308,14 @@ footer i {
   }
 
   div.flex .courses .html {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     margin-top: -100px;
     margin-left: 490px;
+  }
+
+  div.flex .project h3 {
+    line-height: 250%;
   }
 
   h4 {
@@ -330,12 +337,13 @@ footer i {
     height: 45vh;
   }
 
-  div.bg {
+  header div.bg {
     height: 45vh;
   }
 
-  header h1 {
-    margin-top: 50px;
+  h1 {
+    margin-top: -55px;
+    font-size: 1.8em;
   }
 
   div.main {
@@ -396,12 +404,15 @@ footer i {
 
 @media (orientation: landscape) and (min-width: 720px) {
   header {
-    height: 35vh;
+    height: 50vh;
     background-attachment: fixed;
   }
 
-  header h1 {
-    padding: 15px 0;
+  header div.bg {
+    height: 50vh;
+  }
+
+  h1 {
     font-size: 2.5em;
   }
 
@@ -450,6 +461,13 @@ footer i {
     letter-spacing: 0.3px;
   }
 
+  div.flex .courses .html {
+    width: 60px;
+    height: 60px;
+    margin-top: -60px;
+    margin-left: 330px;
+  }
+
   div.flex .project h3 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -474,13 +492,6 @@ footer i {
 
   div.underline {
     width: 60%;
-  }
-
-  div.flex .courses .html {
-    width: 60px;
-    height: 60px;
-    margin-top: -60px;
-    margin-left: 330px;
   }
 
   h4 {
@@ -514,9 +525,11 @@ footer i {
     box-shadow: 0 10px 30px -5px #000;
   }
 
-  header h1 {
-    margin-top: 100px;
-    font-size: 3em;
+  h1 {
+    margin-top: -70px;
+    padding: 7px 0;
+    font-size: 3.2em;
+    letter-spacing: 4px;
   }
 
   div.main {
@@ -555,6 +568,13 @@ footer i {
     font-size: 2em;
   }
 
+  div.flex .courses .html {
+    width: 70px;
+    height: 70px;
+    margin-top: -80px;
+    margin-left: 420px;
+  }
+
   div.flex .project h3 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -567,26 +587,25 @@ footer i {
   }
 
   h4 {
-    margin-bottom: 9px;
+    margin-bottom: 7px;
     font-size: 2.2em;
   }
 
-  div.flex .courses .html {
-    width: 70px;
-    height: 70px;
-    margin-top: -80px;
-    margin-left: 420px;
+  div.flex .grid {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    align-items: center;
   }
 
   section.rodo p {
     font-size: 1.3em;
   }
-}
 
-footer {
-  box-shadow: 0 10px 30px -5px #000;
-}
+  footer {
+    box-shadow: 0 10px 30px -5px #000;
+  }
 
-footer i {
-  padding-top: 10px;
+  footer i {
+    padding-top: 10px;
+  }
 }
