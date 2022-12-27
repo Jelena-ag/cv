@@ -108,6 +108,11 @@ p {
   font-size: 1.2em;
 }
 
+div.flex p {
+padding-right: 25px;
+text-align: justify;
+}
+
 div.flex .courses .html {
   position: absolute;
   width: 40px;
